@@ -26,7 +26,7 @@ class TestDecryption(unittest.TestCase):
     def tearDown(self):
         self.session.close()
 
-    def test_list(self):
+    def test_decrypt(self):
         vjkl5 = Vjkl5()
         self.session.cookies["vjkl5"] = vjkl5
 
